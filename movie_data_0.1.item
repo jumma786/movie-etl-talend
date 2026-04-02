@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_IeONoC6SEfGh0cZg2LffdA" name="movie_data" dataPackage="_IeONoS6SEfGh0cZg2LffdA" Server="Localhost 127.0.0.1" FilePath="C:/Users/jumma/Downloads/movies_data (3).csv" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_IeONoS6SEfGh0cZg2LffdA" name="default" dataManager="_IeONoC6SEfGh0cZg2LffdA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_IeONoi6SEfGh0cZg2LffdA" id="_4JVp4C6REfGh0cZg2LffdA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IeONoy6SEfGh0cZg2LffdA" label="movie_id" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IeO0sC6SEfGh0cZg2LffdA" label="year_of_release" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IeO0sS6SEfGh0cZg2LffdA" label="Genre" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IeO0si6SEfGh0cZg2LffdA" label="Director" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IeO0sy6SEfGh0cZg2LffdA" label="IMDB_ratings" length="3" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IeO0tC6SEfGh0cZg2LffdA" label="country" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
