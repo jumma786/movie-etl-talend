@@ -79,15 +79,15 @@ rating_category:
 
 ### 🔹 Talend Job Design
 
-(Add screenshot here)
+
 
 ### 🔹 tMap Transformation
 
-(Add screenshot here)
+
 
 ### 🔹 Output Data
 
-(Add screenshot here)
+
 
 ---
 
